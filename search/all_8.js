@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loader_15',['Loader',['../classLoader.html',1,'']]]
+  ['jcomunication_25',['jComunication',['../classjComunication.html',1,'']]]
 ];

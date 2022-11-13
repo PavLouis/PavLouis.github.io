@@ -81,16 +81,16 @@ $(function() {
 <div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classEntity.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classEntity.html">Entity</a> {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classEntity.html#a8cb6528dc634682cc39b0c4af6dd514e">   18</a></span>&#160;        <span class="keyword">explicit</span> <a class="code" href="classEntity.html#a8cb6528dc634682cc39b0c4af6dd514e">Entity</a>(<span class="keywordtype">size_t</span> val): id(val) {};</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classEntity.html#a2a389484926d524a6fb3049160e48ab5">   18</a></span>&#160;        <span class="keyword">explicit</span> <a class="code" href="classEntity.html#a2a389484926d524a6fb3049160e48ab5">Entity</a>(<span class="keywordtype">size_t</span> val) noexcept : id(val) {};</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classEntity.html#a15adfa5c02b836a2e0b9ea31c0a90e26">   25</a></span>&#160;        <span class="keyword">operator</span> size_t()<span class="keyword"> const </span>{<span class="keywordflow">return</span> id;};</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        ~<a class="code" href="classEntity.html">Entity</a>() {};</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        std::size_t id;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        ~<a class="code" href="classEntity.html">Entity</a>() noexcept = default;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    private:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        std::<span class="keywordtype">size_t</span> <span class="keywordtype">id</span>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;};</div>
 <div class="ttc" id="aclassEntity_html"><div class="ttname"><a href="classEntity.html">Entity</a></div><div class="ttdef"><b>Definition:</b> Entity.hpp:10</div></div>
-<div class="ttc" id="aclassEntity_html_a8cb6528dc634682cc39b0c4af6dd514e"><div class="ttname"><a href="classEntity.html#a8cb6528dc634682cc39b0c4af6dd514e">Entity::Entity</a></div><div class="ttdeci">Entity(size_t val)</div><div class="ttdoc">Explicit constructor. Don't give twice the same that may cause some problems if you use the sparse ar...</div><div class="ttdef"><b>Definition:</b> Entity.hpp:18</div></div>
+<div class="ttc" id="aclassEntity_html_a2a389484926d524a6fb3049160e48ab5"><div class="ttname"><a href="classEntity.html#a2a389484926d524a6fb3049160e48ab5">Entity::Entity</a></div><div class="ttdeci">Entity(size_t val) noexcept</div><div class="ttdoc">Explicit constructor. Don't give twice the same that may cause some problems if you use the sparse ar...</div><div class="ttdef"><b>Definition:</b> Entity.hpp:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

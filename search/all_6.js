@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['insert_5fat_13',['insert_at',['../classsparse__array.html#a1b220605304e0b2cebb779302fd67d23',1,'sparse_array::insert_at(size_type pos, Component const &amp;v)'],['../classsparse__array.html#a1f26c6be3f71f507ceff340023de3e1e',1,'sparse_array::insert_at(size_type pos, Component &amp;&amp;v)']]]
+  ['health_5ft_20',['Health_t',['../structrt_1_1Health__t.html',1,'rt']]],
+  ['hitbox_5ft_21',['Hitbox_t',['../structrt_1_1Hitbox__t.html',1,'rt']]]
 ];

@@ -75,10 +75,10 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae771f75377f92aee1cd78d9ac2a9c1b3"><td class="memTemplParams" colspan="2">template&lt;class Component &gt; </td></tr>
-<tr class="memitem:ae771f75377f92aee1cd78d9ac2a9c1b3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classrt_1_1Registry.html#ae771f75377f92aee1cd78d9ac2a9c1b3">deleteEntityFromComponent</a> (<a class="el" href="classrt_1_1Registry.html">Registry</a> &amp;regi, <a class="el" href="classEntity.html">Entity</a> const &amp;entity)</td></tr>
-<tr class="memdesc:ae771f75377f92aee1cd78d9ac2a9c1b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the entity specified from the given component.  <a href="classrt_1_1Registry.html#ae771f75377f92aee1cd78d9ac2a9c1b3">More...</a><br /></td></tr>
-<tr class="separator:ae771f75377f92aee1cd78d9ac2a9c1b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8a5df184e9ff3856fe42fda5280e40d"><td class="memTemplParams" colspan="2">template&lt;class Component &gt; </td></tr>
+<tr class="memitem:ae8a5df184e9ff3856fe42fda5280e40d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classrt_1_1Registry.html#ae8a5df184e9ff3856fe42fda5280e40d">deleteEntityFromComponent</a> (<a class="el" href="classrt_1_1Registry.html">Registry</a> &amp;r, <a class="el" href="classEntity.html">Entity</a> const &amp;entity)</td></tr>
+<tr class="memdesc:ae8a5df184e9ff3856fe42fda5280e40d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the entity specified from the given component.  <a href="classrt_1_1Registry.html#ae8a5df184e9ff3856fe42fda5280e40d">More...</a><br /></td></tr>
+<tr class="separator:ae8a5df184e9ff3856fe42fda5280e40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a04431340a556a99e50c77100957b15"><td class="memTemplParams" colspan="2">template&lt;class Component &gt; </td></tr>
 <tr class="memitem:a6a04431340a556a99e50c77100957b15"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classsparse__array.html">sparse_array</a>&lt; Component &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classrt_1_1Registry.html#a6a04431340a556a99e50c77100957b15">registerComponent</a> ()</td></tr>
 <tr class="memdesc:a6a04431340a556a99e50c77100957b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Take a component and create a new sparse array inside the register.  <a href="classrt_1_1Registry.html#a6a04431340a556a99e50c77100957b15">More...</a><br /></td></tr>
@@ -97,9 +97,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3fbd93af05f63c6d51f22e58fb16a727"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEntity.html">Entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrt_1_1Registry.html#a3fbd93af05f63c6d51f22e58fb16a727">spawnEntity</a> ()</td></tr>
 <tr class="memdesc:a3fbd93af05f63c6d51f22e58fb16a727"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign a new id each time a new entity is spawned.  <a href="classrt_1_1Registry.html#a3fbd93af05f63c6d51f22e58fb16a727">More...</a><br /></td></tr>
 <tr class="separator:a3fbd93af05f63c6d51f22e58fb16a727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24c9adefcf5ba5bd50ffe42310d0e425"><td class="memItemLeft" align="right" valign="top"><a id="a24c9adefcf5ba5bd50ffe42310d0e425"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrt_1_1Registry.html#a24c9adefcf5ba5bd50ffe42310d0e425">removeEntity</a> ()</td></tr>
+<tr class="memdesc:a24c9adefcf5ba5bd50ffe42310d0e425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove last entity created but do not set is component to std::nullopt. <br /></td></tr>
+<tr class="separator:a24c9adefcf5ba5bd50ffe42310d0e425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adec77b35d7a030bd0e680555b5bc6265"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrt_1_1Registry.html#adec77b35d7a030bd0e680555b5bc6265">getNbrEntity</a> ()</td></tr>
+<tr class="memdesc:adec77b35d7a030bd0e680555b5bc6265"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the total numbers of entity created  <a href="classrt_1_1Registry.html#adec77b35d7a030bd0e680555b5bc6265">More...</a><br /></td></tr>
+<tr class="separator:adec77b35d7a030bd0e680555b5bc6265"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf08f0794cbf650c2e5cb63347be015b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEntity.html">Entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrt_1_1Registry.html#abf08f0794cbf650c2e5cb63347be015b">entityFromIndex</a> (std::size_t idx)</td></tr>
 <tr class="memdesc:abf08f0794cbf650c2e5cb63347be015b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Take index and return <a class="el" href="classEntity.html">Entity</a> from the vector.  <a href="classrt_1_1Registry.html#abf08f0794cbf650c2e5cb63347be015b">More...</a><br /></td></tr>
 <tr class="separator:abf08f0794cbf650c2e5cb63347be015b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a899d7fca26c15b3db99ee253c368e840"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrt_1_1Registry.html#a899d7fca26c15b3db99ee253c368e840">isEntityCreated</a> (std::size_t idx)</td></tr>
+<tr class="memdesc:a899d7fca26c15b3db99ee253c368e840"><td class="mdescLeft">&#160;</td><td class="mdescRight">Take index and return if <a class="el" href="classEntity.html">Entity</a> exist.  <a href="classrt_1_1Registry.html#a899d7fca26c15b3db99ee253c368e840">More...</a><br /></td></tr>
+<tr class="separator:a899d7fca26c15b3db99ee253c368e840"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a642e2920de1f122972ff93b14a0369f0"><td class="memTemplParams" colspan="2">template&lt;typename Component &gt; </td></tr>
 <tr class="memitem:a642e2920de1f122972ff93b14a0369f0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classsparse__array.html">sparse_array</a>&lt; Component &gt;::reference_type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classrt_1_1Registry.html#a642e2920de1f122972ff93b14a0369f0">addComponent</a> (<a class="el" href="classEntity.html">Entity</a> const &amp;to, Component &amp;&amp;c)</td></tr>
 <tr class="memdesc:a642e2920de1f122972ff93b14a0369f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add component to the entity inside the sparse array specified.  <a href="classrt_1_1Registry.html#a642e2920de1f122972ff93b14a0369f0">More...</a><br /></td></tr>
@@ -148,11 +158,17 @@ template&lt;typename Component &gt; </div>
 
 <p>Add component to the entity inside the sparse array specified. </p>
 <dl class="section return"><dt>Returns</dt><dd>Nothing for the moment but need to be changed </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::out_of_range</td><td>if <a class="el" href="classEntity.html">Entity</a> is inferior to 0 </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="ae771f75377f92aee1cd78d9ac2a9c1b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae771f75377f92aee1cd78d9ac2a9c1b3">&#9670;&nbsp;</a></span>deleteEntityFromComponent()</h2>
+<a id="ae8a5df184e9ff3856fe42fda5280e40d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8a5df184e9ff3856fe42fda5280e40d">&#9670;&nbsp;</a></span>deleteEntityFromComponent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166,7 +182,7 @@ template&lt;class Component &gt; </div>
           <td class="memname">void rt::Registry::deleteEntityFromComponent </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classrt_1_1Registry.html">Registry</a> &amp;&#160;</td>
-          <td class="paramname"><em>regi</em>, </td>
+          <td class="paramname"><em>r</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -190,7 +206,7 @@ template&lt;class Component &gt; </div>
 <p>Delete the entity specified from the given component. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">regi</td><td>adress of the register from where we will delete the entity </td></tr>
+    <tr><td class="paramname">r</td><td>adress of the register from where we will delete the entity </td></tr>
     <tr><td class="paramname">entity</td><td>read-only adress of the entity that will be deleted </td></tr>
   </table>
   </dd>
@@ -226,7 +242,7 @@ template&lt;class Component &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classEntity.html">Entity</a> that was found </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">std::out_of_range</td><td>If no such data is present. </td></tr>
+    <tr><td class="paramname">std::out_of_range</td><td>if <a class="el" href="classEntity.html">Entity</a> is inferior to 0 or entity not exist </td></tr>
   </table>
   </dd>
 </dl>
@@ -305,6 +321,63 @@ template&lt;class Component &gt; </div>
 
 </div>
 </div>
+<a id="adec77b35d7a030bd0e680555b5bc6265"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adec77b35d7a030bd0e680555b5bc6265">&#9670;&nbsp;</a></span>getNbrEntity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t rt::Registry::getNbrEntity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the total numbers of entity created </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the nbr of entity </dd></dl>
+
+</div>
+</div>
+<a id="a899d7fca26c15b3db99ee253c368e840"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a899d7fca26c15b3db99ee253c368e840">&#9670;&nbsp;</a></span>isEntityCreated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool rt::Registry::isEntityCreated </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Take index and return if <a class="el" href="classEntity.html">Entity</a> exist. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if <a class="el" href="classEntity.html">Entity</a> exist, and false if not </dd></dl>
+
+</div>
+</div>
 <a id="afc016920c9ebb4702bfca0785952bec7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc016920c9ebb4702bfca0785952bec7">&#9670;&nbsp;</a></span>killEntity()</h2>
 
@@ -333,6 +406,12 @@ template&lt;class Component &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">e</td><td>Read-only (const) adress of the entity that will be deleted </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::out_of_range</td><td>if <a class="el" href="classEntity.html">Entity</a> is inferior to 0 </td></tr>
   </table>
   </dd>
 </dl>
@@ -399,6 +478,12 @@ template&lt;typename Component &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">from</td><td>Read-only (const) adress of the entity that will have one component removed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::out_of_range</td><td>if <a class="el" href="classEntity.html">Entity</a> is inferior to 0 </td></tr>
   </table>
   </dd>
 </dl>

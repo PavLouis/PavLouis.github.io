@@ -79,30 +79,35 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac267258ab2c0e65bdcd89935ad6d2252"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoader.html#ac267258ab2c0e65bdcd89935ad6d2252">setTextureFromFile</a> (const std::string texturePath, std::string name=&quot;&quot;)</td></tr>
 <tr class="memdesc:ac267258ab2c0e65bdcd89935ad6d2252"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will load the texture given and will stock it in a pointer. If a name is given it will be the key and if you don't have given a name the key will be the path.  <a href="classLoader.html#ac267258ab2c0e65bdcd89935ad6d2252">More...</a><br /></td></tr>
 <tr class="separator:ac267258ab2c0e65bdcd89935ad6d2252"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a103399a7396b015932e98612f9e193f9"><td class="memItemLeft" align="right" valign="top"><a id="a103399a7396b015932e98612f9e193f9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setTextureFromFolder</b> ()</td></tr>
-<tr class="separator:a103399a7396b015932e98612f9e193f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87891a3c728ab67b61764d020d137993"><td class="memItemLeft" align="right" valign="top">sf::Texture &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoader.html#a87891a3c728ab67b61764d020d137993">get</a> (std::string key)</td></tr>
-<tr class="memdesc:a87891a3c728ab67b61764d020d137993"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the adress of the texture but the texture need to be already loaded with the function setTextureFromFile.  <a href="classLoader.html#a87891a3c728ab67b61764d020d137993">More...</a><br /></td></tr>
-<tr class="separator:a87891a3c728ab67b61764d020d137993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac117215b3e00a92c22b99a622fc40582"><td class="memItemLeft" align="right" valign="top">sf::Texture &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoader.html#ac117215b3e00a92c22b99a622fc40582">get</a> (std::string key) const noexcept</td></tr>
+<tr class="memdesc:ac117215b3e00a92c22b99a622fc40582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the adress of the texture but the texture need to be already loaded with the function setTextureFromFile.  <a href="classLoader.html#ac117215b3e00a92c22b99a622fc40582">More...</a><br /></td></tr>
+<tr class="separator:ac117215b3e00a92c22b99a622fc40582"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Handle all the textures, load and unload. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a87891a3c728ab67b61764d020d137993"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87891a3c728ab67b61764d020d137993">&#9670;&nbsp;</a></span>get()</h2>
+<a id="ac117215b3e00a92c22b99a622fc40582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac117215b3e00a92c22b99a622fc40582">&#9670;&nbsp;</a></span>get()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">sf::Texture&amp; Loader::get </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>key</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Get the adress of the texture but the texture need to be already loaded with the function setTextureFromFile. </p>
